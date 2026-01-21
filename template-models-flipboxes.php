@@ -4,7 +4,7 @@
  * Description: Displays an Actors flipbox grid with pagination, sidebar, and SEO accordion.
  *
  * @package RetrotubeChild
- * @version 2.3.0
+ * @version 4.0.0
  */
 
 // Disable FEATURED MODELS injection on this page

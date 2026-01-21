@@ -3,7 +3,7 @@
  * Models taxonomy registration and management.
  *
  * @package suspended-flavor-flavor
- * @since 5.0.0
+ * @since 4.0.0
  */
 
 namespace TMW\Models;

@@ -1,9 +1,9 @@
 /**
- * TMW Global Accordion v5.0 - BULLETPROOF FINAL
+ * TMW Global Accordion v4.0.0 - BULLETPROOF FINAL
  * 100% identical behavior on ALL pages
  *
  * @package RetrotubeChild
- * @version 5.0.0
+ * @version 4.0.0
  */
 
 (function() {

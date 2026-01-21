@@ -3,7 +3,7 @@
  * Main theme class - bootstraps all components.
  *
  * @package suspended-flavor-flavor
- * @since 5.0.0
+ * @since 4.0.0
  */
 
 namespace TMW\Core;
@@ -17,7 +17,7 @@ defined('ABSPATH') || exit;
  */
 final class Theme {
 
-    const VERSION = '5.0.0';
+    const VERSION = '4.0.0';
 
     private static $instance = null;
 
