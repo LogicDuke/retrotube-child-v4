@@ -3,7 +3,7 @@
  * PSR-4 style autoloader for theme classes.
  *
  * @package suspended-flavor-flavor
- * @since 5.0.0
+ * @since 4.0.0
  */
 
 namespace TMW\Core;

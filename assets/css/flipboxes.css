@@ -1,11 +1,11 @@
 /* =========================================================
-   Flipboxes CSS — Retrotube Child (Flipbox Edition) v2
+   Flipboxes CSS — Retrotube Child (Flipbox Edition) v4.0.0
    ========================================================= */
 
 /* Theme accent (red) */
 .tmw-grid{ --tmw-accent:#db001a; }
 
-/* v3.5.7 — Flipbox CTA bottom offsets */
+/* v4.0.0 — Flipbox CTA bottom offsets */
 :root{
   --tmw-flip-cta-bottom-desktop:5px;
   --tmw-flip-cta-bottom-mobile:5px;

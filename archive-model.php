@@ -4,7 +4,7 @@
  * With SEO text accordion - pulls content from the "models" page editor.
  *
  * @package RetrotubeChild
- * @version 2.5.0
+ * @version 4.0.0
  */
 
 // Disable FEATURED MODELS injection on this page
