@@ -1,15 +1,15 @@
 <?php
 /**
- * Retrotube Child Theme - Clean Architecture v5
+ * Retrotube Child Theme - Clean Architecture v4
  *
  * @package suspended-flavor-flavor
- * @version 5.0.0
+ * @version 4.0.0
  */
 
 defined('ABSPATH') || exit;
 
 // Theme constants
-define('TMW_VERSION', '5.0.0');
+define('TMW_VERSION', '4.0.0');
 define('TMW_PATH', get_stylesheet_directory());
 define('TMW_URL', get_stylesheet_directory_uri());
 
@@ -20,7 +20,7 @@ TMW\Core\Autoloader::register(TMW_PATH . '/inc/');
 // Initialize theme
 add_action('after_setup_theme', function () {
     TMW\Core\Theme::instance();
-}, 5);
+}, 4);
 
 // Load parent theme textdomain
 add_action('after_setup_theme', function () {
