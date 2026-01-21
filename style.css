@@ -1,6 +1,20 @@
 /*
-Theme Name: RetroTube Child v4 (Flipbox Edition)
-Theme URI: https://example.com/retrotube-child-v4
+Theme Name: Retrotube Child (Clean v5)
 Template: retrotube
-Text Domain: retrotube-child-v4
+Version: 5.0.0
+Description: Professional child theme for WP-Script Retrotube with clean architecture, Model CPT, Category Pages, and optimized performance. Complete rewrite with proper class-based structure.
+Author: Top Models Webcam
+Text Domain: flavor
 */
+
+/* CSS Variables */
+:root {
+    --tmw-hero-base-h: 350;
+    --tmw-hero-mobile-h: clamp(120px, calc(100vw * 0.338), 200px);
+    --tmw-primary: #e91e63;
+    --tmw-secondary: #9c27b0;
+    --tmw-dark: #1a1a1a;
+    --tmw-light: #f5f5f5;
+}
+
+/* Main styles are in assets/css/main.css */
