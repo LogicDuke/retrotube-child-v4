@@ -8,6 +8,8 @@
 
 namespace TMW\Core;
 
+use TMW\Integrations\AWEmpire;
+
 defined('ABSPATH') || exit;
 
 /**
@@ -69,7 +71,11 @@ final class Theme {
 
         // Integrations
         $this->components['rankmath'] = new \TMW\Integrations\RankMath();
-        $this->components['awempire'] = new \TMW\Integrations\AWEmpire();
+        if (class_exists(AWEmpire::class)) {
+            $this->components['awempire'] = new AWEmpire();
+        } else {
+            error_log('[TMW-THEME][TMW-INTEGRATION] AWEmpire integration not loaded: class missing');
+        }
 
         // Performance
         $this->components['performance'] = new \TMW\Performance\Optimizer();
